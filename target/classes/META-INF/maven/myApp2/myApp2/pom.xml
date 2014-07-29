@@ -3,4 +3,13 @@
   <groupId>myApp2</groupId>
   <artifactId>myApp2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <dependency>
+	    <groupId>com.sparkjava</groupId>
+	    <artifactId>spark-core</artifactId>
+	    <version>1.1.1</version>
+    </dependency>    
+  </dependencies>
+  
 </project>
