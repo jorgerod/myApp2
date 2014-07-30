@@ -24,7 +24,7 @@ public class RecipeController {
             }
         });
         
-        get("/api/recipedd", new Route() { 
+        get("/api/recipe", new Route() { 
             
             @Override
             public Object handle(Request request, Response response) {
