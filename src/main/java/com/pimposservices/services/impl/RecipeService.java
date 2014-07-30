@@ -17,5 +17,17 @@ public class RecipeService implements IRecipeService{
     public String getRecipe(String idRecipe) {
         return "Bacon cheese fries";
     }
+
+    @Override
+    public RecipeDto save(RecipeDto recipeDto) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String delete(String idRecipe) {
+        // TODO Auto-generated method stub
+        return null;
+    }
     
 }
