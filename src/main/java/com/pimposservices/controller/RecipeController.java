@@ -15,7 +15,7 @@ public class RecipeController {
     
     public RecipeController() {       
         
-        post("/api/recipessddddddddd", new Route() {
+        post("/api/recipes", new Route() {
             
             @Override
             public Object handle(Request request, Response response) {
