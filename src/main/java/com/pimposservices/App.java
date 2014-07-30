@@ -1,4 +1,4 @@
-package com.pimpos.app;
+package com.pimposservices;
 
 import spark.Request;
 import spark.Response;
@@ -11,7 +11,7 @@ public class App {
      * @param args
      */
     public static void main(String[] args) {
-        Spark.get(new Route("/") {
+        Spark.get("/", new Route() {
             @Override
             public Object handle(Request arg0, Response arg1) {
                 return "Hello nurcio";
